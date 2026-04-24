@@ -1,0 +1,62 @@
+/* Arka plan / Background */
+.auth-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+/* Kart tasarımı / Card design */
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.auth-card h2 { color: #1e293b; margin-bottom: 10px; }
+.auth-card p { color: #64748b; font-size: 0.9rem; margin-bottom: 30px; }
+
+/* Form girişleri / Form inputs */
+.input-group-custom {
+    text-align: left; /* Metni sola hizalama / Align text to left */
+    margin-bottom: 20px;
+}
+
+.input-group-custom label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #475569;
+}
+
+.input-group-custom input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group-custom input:focus { border-color: #3b82f6; }
+
+/* Buton tasarımı / Button design */
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.auth-btn:hover { background: #2563eb; }

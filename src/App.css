@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+:root {
+    --primary-color: #1e3a8a; /* أزرق داكن رسمي */
+    --secondary-color: #2563eb; /* أزرق فاتح للأزرار */
+    --hover-color: #1d4ed8;
+    --bg-color: #f8fafc;
+    --text-main: #334155;
+    --border-radius: 12px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3.5rem 0;
+    margin-bottom: -4rem;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+}
+
+.hero-header h1 { font-size: 2.2rem; font-weight: 600; margin-bottom: 0.5rem; }
+.hero-header p { opacity: 0.9; font-weight: 300; }
+
+.form-container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 10;
+    margin-bottom: 3rem;
+    transform: translateY(70px);
+}
+
+.form-group { margin-bottom: 1.8rem; }
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: var(--primary-color);
+}
+
+label i { margin-right: 8px; color: var(--secondary-color); }
+
+.text-muted { font-size: 0.85rem; color: #94a3b8; font-weight: 400; }
+
+.custom-input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #1e293b; /* لون نص غامق وواضح - Dark text color */
+    font-weight: 500; /* سماكة الخط - Font weight */
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.custom-input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.file-input { padding: 0.7rem; }
+
+.map-box {
+    height: 350px;
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+    z-index: 1;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}
+
+.btn-submit:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.site-footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; }
