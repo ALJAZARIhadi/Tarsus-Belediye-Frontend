@@ -1,6 +1,5 @@
 ---
 
-### 2️⃣ ملف `README.md` الخاص بالفرونت-إند (Frontend)
 
 ```markdown
 # 🏙️ Tarsus Belediyesi Akıllı Şehir Sistemi - Frontend
