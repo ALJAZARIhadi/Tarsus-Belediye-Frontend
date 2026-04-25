@@ -64,7 +64,7 @@ function Dashboard() {
     <div className="admin-container">
       <div className="container">
         <h2 className="dashboard-title"><i className="fa-solid fa-toolbox"></i> Belediye Yönetim Paneli</h2>
-        
+         
         {/* الخريطة العلوية مع شرط التأكد من الإحداثيات */}
         <div style={{ borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', border: '1px solid #e2e8f0' }}>
         <MapContainer center={[36.9188, 34.8783]} zoom={13} style={{ height: '400px', width: '100%' }}>
